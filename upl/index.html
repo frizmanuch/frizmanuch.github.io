@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+ function onResponse(d) {
+ eval('var obj = ' + d + ';');
+ alert('Файл ' + obj.filename + (obj.success ? " " : " НЕ ") +
+    "загружен.");
+ }
+ </script>
+</head>
+
+<iframe id="rFrame" name="rFrame" style="display: none">
+</iframe>
+
+<form action="handler.php" target="rFrame" method="POST"
+   enctype="multipart/form-data">
+<input type="file" name="loadfile">
+<input type='submit' value='Загрузить'>
+</form>
+
+</html>
