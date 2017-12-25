@@ -3,9 +3,6 @@
 
 creator @frizman
 
-opensuse code,you can download site https://goo.gl/br9uae
-
-
 <a href="https://github.com/frizmanuch/frizmanuch.github.io/releases/tag/0.2.4">Version</a> "Betta 2.4"<br>
 
 
