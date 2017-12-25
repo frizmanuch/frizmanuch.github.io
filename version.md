@@ -1,4 +1,4 @@
-<a href="https://github.com/frizmanuch/frizmanuch.github.io/releases/tag/0.2.4">Version</a><br> "Betta 2.4"
+<a href="https://github.com/frizmanuch/frizmanuch.github.io/releases/tag/0.2.4">Version</a> "Betta 2.4"<br>
 
 
 Betta 2.4 This is a pre-release.<br>
