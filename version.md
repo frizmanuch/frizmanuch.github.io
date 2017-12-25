@@ -1,10 +1,10 @@
-<a href="https://github.com/frizmanuch/frizmanuch.github.io/releases/tag/0.2.4">Version</a>
+<a href="https://github.com/frizmanuch/frizmanuch.github.io/releases/tag/0.2.4">Version</a><br>
 
 
-Betta 2.4 This is a pre-release.
-We’ll point out that this release is identified as non-production ready.
-2 bags Delete.
-New design.
+Betta 2.4 This is a pre-release.<br>
+We’ll point out that this release is identified as non-production ready.<br>
+2 bags Delete.<br>
+New design.<br>
 
 <a href="https://github.com/frizmanuch/frizmanuch.github.io/archive/0.2.4.zip">.ZIP download</a>
 <br>
