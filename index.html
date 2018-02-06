@@ -27,7 +27,36 @@
 </p>
 
   </div>
- 
+ <br>
+	<script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "883fb80696227b25f69a90714b90d410",
+    "excludeDomains": [
+        "frizmanuch.github.io"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
+	
+	
+	
 <footer><a href="https://github.com/frizmanuch/frizmanuch.github.io">Copyright © 2017, <a href="https://frizmanuch.github.io/">frizman</a>. All rights reserved.</a></footer>
 
 </body>
