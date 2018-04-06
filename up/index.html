@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Лучшая Ajax форма загрузки файла + JQuery эффекты! | Vladmaxi.net</title>
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+		<link rel="stylesheet" type="text/css" href="css/style.css"  />
+		<link rel="icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+	
+	<!-- vladmaxi top bar -->
+		<div class="vladmaxi-top">
+			<a href="http://vladmaxi.net" target="_blank">Главная Vladmaxi.net</a>
+			<span class="right">
+				<a href="http://vladmaxi.net/web-developer/jquery/luchshaya-ajax-forma-zagruzki-fajla-jquery-effekty.html">
+					<strong>Вернуться назад к статье</strong>
+				</a>
+			</span>
+		<div class="clr"></div>
+		</div>
+	<!-- vladmaxi top bar -->
+	
+	<header><h1>Лучшая Ajax форма загрузки файла + JQuery эффекты!</h1></header>
+	
+		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+			<div id="drop">
+				Добавить файлы сюда
+				<a>Загрузить</a>
+				<input type="file" name="upl" multiple />
+			</div>
+			<ul>
+				<!-- Файлы будут загружаться здесь -->
+			</ul>
+		</form>
+        
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.knob.js"></script>
+
+		<!-- jQuery загрузка файлов -->
+		<script src="js/jquery.ui.widget.js"></script>
+		<script src="js/jquery.iframe-transport.js"></script>
+		<script src="js/jquery.fileupload.js"></script>
+		
+		<!-- Основной JS файл -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
