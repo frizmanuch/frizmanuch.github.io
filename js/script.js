@@ -1,19 +1,16 @@
-
+$GoogleExcelId = "1CU8kjmxoUpfNhsu0jtK3LKzOrvukZbS9N3UPPFVNUBQ";  //Google Excel Id
 
 $(document).ready(function(){
 
-$.getJSON("https://spreadsheets.google.com/feeds/list/1CU8kjmxoUpfNhsu0jtK3LKzOrvukZbS9N3UPPFVNUBQ/od6/public/values?alt=json", function(data){
+$.getJSON("https://spreadsheets.google.com/feeds/list/" + $GoogleExcelId + "/od6/public/values?alt=json", function(data){
 	data = data['feed']['entry']
 
 	console.log(data);
 
 showGoods(data);
 });
-
 function showGoods(data){
-
 var out = '';
-
 for (var i = 0; i<data.length; i++) {
 	if (data[i]['gsx$val']['$t'] >= 1) {
 out +=`<div class="col-lg-3 col-md-3 col-sm-2 text-center">`;
@@ -26,14 +23,9 @@ out +=`</div>`;
 out +=`</div>`;
 }
 }
-
 $('.shop-field').html(out);
-
 }
-
-
-
-//out +=`<a style="inline-block;background-color: #f44336;color: #FFFFFF;padding: 15px 19px;text-align: center;text-decoration: none;font-size: 15px;margin-left: 15px;opacity: 0.9;" href="${data[i]['gsx$id']['$t']}">Купить</a>`;
-
 })
+
+
 
